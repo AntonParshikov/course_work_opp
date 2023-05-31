@@ -31,14 +31,6 @@ class SuperJobAPI(WorkingWithAPI):
                 'url': obj['link'],
                 'req': obj['candidat']
             }))
-            # all_vacancy.append({
-            #     'title': obj['profession'],
-            #     'salary_from': obj['payment_from'],
-            #     'salary_to': obj['payment_to'],
-            #     'employer': obj['firm_name'],
-            #     'url': obj['link'],
-            #     'req': obj['candidat']
-            # })
         return all_vacancy
 
 

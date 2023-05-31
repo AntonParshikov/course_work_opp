@@ -37,17 +37,8 @@ class HeadHunterAPI(WorkingWithAPI):
                 'url': obj['url'],
                 'req': obj['snippet']['requirement']
             }))
-            # all_vacancy.append({
-            #     'title': obj['name'],
-            #     'salary_from': salary.get('from', 0),
-            #     'salary_to': salary.get('to', 0),
-            #     'employer': obj['employer']['name'],
-            #     'url': obj['url'],
-            #     'req': obj['snippet']['requirement']
-            # })
         return all_vacancy
 
 
 if __name__ == "__main__":
-    client = HeadHunterAPI('Python')
-    print(client.get_vacancies())
+    pass

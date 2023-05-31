@@ -16,7 +16,7 @@ class JSONSaver:
         file.write(json.dumps(_list, ensure_ascii=False, indent=2))
         file.close()
 
-    def rem_vacancy(self, vacancy_del = str(input('Введите вакансию, которую нужно удалить? \n'))):
+    def rem_vacancy(self, vacancy_del):
 
         with open('../vacancy_files/vacancy.json', mode='r', encoding='utf8') as file:
             obj = json.load(file)
@@ -27,11 +27,17 @@ class JSONSaver:
                 json.dump(obj, out_file, ensure_ascii=False, indent=2)
             out_file.close()
 
-    def get_info(self):
-        pass
+    def get_info(self, vacancy):
+        with open('../vacancy_files/vacancy.json', mode='r', encoding='utf8') as file:
+            obj = json.load(file)
+            for v in obj:
+                if v['Профессия'] == vacancy:
+                    print(v)
+            file.close()
 
 
 if __name__ == '__main__':
+    pass
     # client = HeadHunterAPI()
     # hh_vacancy = client.get_vacancies('Python')
     # JSONSaver().add_vacancy(hh_vacancy)
@@ -40,6 +46,10 @@ if __name__ == '__main__':
     # sj_vacancy = client_1.get_vacancies('Python')
     # JSONSaver().add_vacancy(sj_vacancy)
 
-    JSONSaver().rem_vacancy()
+    # user_input = input(f'Введите вакансию, которую нужно удалить: \n')
+    # JSONSaver().rem_vacancy(user_input)
+
+    # user_ch = input('Введите вакансию: \n')
+    # JSONSaver().get_info(user_ch)
 
 
