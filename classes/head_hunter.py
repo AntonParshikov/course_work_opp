@@ -9,15 +9,12 @@ class HeadHunterAPI(WorkingWithAPI):
     def __init__(self):
         pass
 
-    # def __str__(self):
-    #     return f'{self.job_title}({self.url})'
-
     def get_vacancies(self, job_title):
         params = {
             'text': job_title,
             'area': 1,
             'page': 0,
-            'per_page': 20
+            'per_page': 100
         }
         req = requests.get('https://api.hh.ru/vacancies', params)
         data = req.content.decode()
@@ -37,8 +34,13 @@ class HeadHunterAPI(WorkingWithAPI):
                 'url': obj['url'],
                 'req': obj['snippet']['requirement']
             }))
+
         return all_vacancy
 
 
 if __name__ == "__main__":
-    pass
+    client = HeadHunterAPI()
+
+    search_query = input('Вы выбрали HH \nВведите поисковый запрос: \n')
+    hh_vacancy = client.get_vacancies(search_query)
+    print(hh_vacancy)

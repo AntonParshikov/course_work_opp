@@ -1,10 +1,4 @@
 class Vacancy:
-    title = None
-    url = None
-    salary_from = None
-    salary_to = None
-    employer = None
-    req = None
 
     def __init__(self, title: str, url: str, salary_from: int, salary_to, employer, req: str):
         self.title = title

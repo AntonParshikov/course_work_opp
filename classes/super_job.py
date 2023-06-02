@@ -10,7 +10,7 @@ class SuperJobAPI(WorkingWithAPI):
         pass
 
     def get_vacancies(self, job_title):
-        params = {'count': 20,
+        params = {'count': 100,
                   'town': 0,
                   'keyword': job_title
                   }
