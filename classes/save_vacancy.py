@@ -1,8 +1,10 @@
 import json
-from operator import itemgetter
 
 
 class JSONSaver:
+
+    """Класс для сохранения полученных вакансий файл,
+    а так же получения информации о вакансии, её удалении и сортировке"""
 
     @staticmethod
     def add_vacancy(obj):
@@ -12,7 +14,7 @@ class JSONSaver:
         file.close()
 
     @staticmethod
-    def rem_vacancy(vacancy_del):
+    def remove_vacancy(vacancy_del):
 
         with open('vacancy.json', mode='r', encoding='utf8') as file:
             obj = json.load(file)

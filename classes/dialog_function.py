@@ -4,6 +4,9 @@ from classes.save_vacancy import JSONSaver
 
 
 def user_interaction():
+
+    """Взаимодействие с пользователем"""
+
     platforms = ['1', '2']
 
     user_input = input('Введите платформу для поиска: 1 - HeadHunter , 2 - SuperJob \n')
@@ -45,4 +48,3 @@ def user_interaction():
 
     elif user_input not in platforms:
         print('Такой платформы для поиска не предусмотрено')
-

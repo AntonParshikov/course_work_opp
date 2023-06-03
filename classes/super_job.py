@@ -1,6 +1,5 @@
 import requests
 from classes.vacancy import Vacancy
-import os
 from classes.working_with_api import WorkingWithAPI
 
 
@@ -10,7 +9,10 @@ class SuperJobAPI(WorkingWithAPI):
         pass
 
     def get_vacancies(self, job_title):
-        params = {'count': 100,
+
+        """Запрос к API SJ"""
+
+        params = {'count': 50,
                   'town': 0,
                   'keyword': job_title
                   }
@@ -21,6 +23,9 @@ class SuperJobAPI(WorkingWithAPI):
         return self.vacancies_pars(req.json())
 
     def vacancies_pars(self, js_obj):
+
+        """Парсинг полученных вакансий"""
+
         all_vacancy = []
         for obj in js_obj['objects']:
             all_vacancy.append(Vacancy(**{

@@ -1,7 +1,7 @@
-from classes.vacancy import Vacancy
-from classes.working_with_api import WorkingWithAPI
 import json
 import requests
+from classes.vacancy import Vacancy
+from classes.working_with_api import WorkingWithAPI
 
 
 class HeadHunterAPI(WorkingWithAPI):
@@ -10,11 +10,13 @@ class HeadHunterAPI(WorkingWithAPI):
         pass
 
     def get_vacancies(self, job_title):
+        """Запрос к API HH"""
+
         params = {
             'text': job_title,
             'area': 1,
             'page': 0,
-            'per_page': 100
+            'per_page': 50
         }
         req = requests.get('https://api.hh.ru/vacancies', params)
         data = req.content.decode()
@@ -23,6 +25,8 @@ class HeadHunterAPI(WorkingWithAPI):
         return self.vacancies_pars(js_obj)
 
     def vacancies_pars(self, js_obj):
+        """Парсинг полученных вакансий"""
+
         all_vacancy = []
         for obj in js_obj['items']:
             salary = obj.get('salary') or {}
@@ -39,8 +43,4 @@ class HeadHunterAPI(WorkingWithAPI):
 
 
 if __name__ == "__main__":
-    client = HeadHunterAPI()
-
-    search_query = input('Вы выбрали HH \nВведите поисковый запрос: \n')
-    hh_vacancy = client.get_vacancies(search_query)
-    print(hh_vacancy)
+    pass
