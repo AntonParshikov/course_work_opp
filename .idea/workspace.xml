@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59ac2494-ae84-4ca9-8609-51e956a78b49" name="Changes" comment="add fixes">
+      <change beforePath="$PROJECT_DIR$/classes/dialog_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/dialog_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/head_hunter.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/head_hunter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/save_vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/save_vacancy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/super_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/super_job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/vacancy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vacancy.json" beforeDir="false" afterPath="$PROJECT_DIR$/vacancy.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="AntonParshikov &lt;128603592+antonparshikov@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q19YJujFU90ZUS1KbSW0ZOs79w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/Grognak/Desktop/Projects/course_work_opp"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="head_hunter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="course_work_opp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/head_hunter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.head_hunter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59ac2494-ae84-4ca9-8609-51e956a78b49" name="Changes" comment="" />
+      <created>1684510266753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684510266753</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1684510360859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510360859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1685522717700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685522717700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add classes hh, sj, vacancy and save_vacancy">
+      <created>1685522837696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685522837696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add rem_vacancy in class JSONSaver">
+      <created>1685525203167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685525203167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add get_info in class JSONSaver">
+      <created>1685527381997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685527381997</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add fixes">
+      <created>1685739291809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685739291809</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add fixes">
+      <created>1685739409117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685739409117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="add classes hh, sj, vacancy and save_vacancy" />
+    <MESSAGE value="add rem_vacancy in class JSONSaver" />
+    <MESSAGE value="add get_info in class JSONSaver" />
+    <MESSAGE value="add fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fixes" />
+  </component>
+</project>
